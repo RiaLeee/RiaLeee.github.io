@@ -1,0 +1,43 @@
+name: Update README with Latest Blog Post
+
+on:
+  push:
+    branches:
+      - main  # 'main' 브랜치에 푸시할 때마다 실행
+  schedule:
+    - cron: '0 0 * * *'  # 매일 자정에 실행
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install ruby-full
+          sudo gem install jekyll
+
+      - name: Get Latest Post from Jekyll _posts
+        run: |
+          # _posts 폴더에서 최신 포스트 파일을 가져오기
+          LATEST_POST=$(ls -t _posts/*.md | head -n 1)
+          POST_TITLE=$(basename $LATEST_POST .md)
+          
+          # 포스트 제목과 URL 생성
+          BLOG_URL="https://rialeee.github.io/"
+          LATEST_POST_URL="${BLOG_URL}${POST_TITLE}"
+
+          # README.md 파일 업데이트
+          sed -i "s|<!-- Latest Post Link -->|- [Latest Post](${LATEST_POST_URL})|g" README.md
+
+      - name: Commit updated README
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Update README with latest blog post"
+          git push
