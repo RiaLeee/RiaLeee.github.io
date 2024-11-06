@@ -1,6 +1,6 @@
 ---
 icon: fas fa-info-circle
-order: 1
+order: 4 #기존으로 변경
 ---
 
 # About Me
@@ -34,8 +34,8 @@ Welcome to my personal blog.
 - **Etc:** Linux, Bootstrap, MUI, Node.js
 
 ## 🏅Project
-- **TripMaven[TripMaven](https://rialeee.github.io/posts/2024-11-06-tripmaven/):** : Team(103日,7人), AI Service
-- **Texify[Texify](https://rialeee.github.io/posts/2024-11-06-textify/):** : Personal(5日), OCR
+- **[TripMaven](https://rialeee.github.io/posts/2024-11-06-tripmaven/):** : Team(103日,7人), AI Service
+- **[Texify](https://rialeee.github.io/posts/2024-11-06-textify/):** : Personal(5日), OCR
 
 ---
 
