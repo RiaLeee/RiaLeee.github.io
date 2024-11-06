@@ -17,7 +17,7 @@ tags:
 excerpt: "AI 기반 서비스직 교육평가 서비스"
 ---
 # 🙋‍♀️ Project INTRO
-TRIPMAVEN은 AI 기반으로 프리랜서 여행 가이드를 대상으로 서비스직 교육과 평가를 지원하는 플랫폼입니다. 이 프로젝트는 여행 가이드의 역량을 강화하고, 실시간으로 피드백을 제공하여 교육 효과를 극대화합니다.
+TRIPMAVEN은 **AI 기반으로 프리랜서 여행 가이드를 대상으로 서비스직 교육과 평가를 지원**하는 플랫폼입니다. 이 프로젝트는 여행 가이드의 역량을 강화하고, 실시간으로 피드백을 제공하여 교육 효과를 극대화합니다.
 
 ![TripMavenLanding](/assets/img/TripMaven/TripMaven_Landing.png)
 
@@ -46,25 +46,25 @@ TRIPMAVEN은 AI 기반으로 프리랜서 여행 가이드를 대상으로 서�
 - Matplotlib을 활용한 **표정 데이터 시각화 및 분석 기능** 구축
 - React-Quill 라이브러리를 통한 **블로그 글 작성 기능**으로 콘텐츠 관리 시스템 강화
 
-📎 MindMap
+## 📎 MindMap
 ![TripMavenMindMap](/assets/img/TripMaven/TripMaven_MindMap.png)
 
-📎 ER Diagram
+## 📎 ER Diagram
 ![TripMavenERD](/assets/img/TripMaven/TripMaven_ERD.png)
 
-📎 UseCase Diagram
+## 📎 UseCase Diagram
 ![TripMavenUseCase](/assets/img/TripMaven/TripMaven_UseCase.png)
 
-📎 Languages/Frameworks/Libraries/Tools
+## 📎 Languages/Frameworks/Libraries/Tools
 ![TripMavenTools](/assets/img/TripMaven/TripMaven_Tools.png)
 
-📎 Entire Architecture
+## 📎 Entire Architecture
 ![TripMavenEntireA](/assets/img/TripMaven/TripMaven_EntireArchitecture.png)
 
-📎 AI service, Face Analysis Architecture
+## 📎 AI service, Face Analysis Architecture
 ![TripMavenFaceA](/assets/img/TripMaven/TripMaven_VideoAnalysisArchitecture.png)
 
-📎 AI service, Voice Analysis Architecture
+## 📎 AI service, Voice Analysis Architecture
 ![TripMavenVoiceA](/assets/img/TripMaven/TripMaven_VoiceAnalysisArchitecture.png)
 
 
