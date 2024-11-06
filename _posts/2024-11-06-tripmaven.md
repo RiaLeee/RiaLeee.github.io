@@ -16,10 +16,12 @@ tags:
   ]
   excerpt: "AI 기반 서비스직 교육평가 서비스"
 ---
-# 프로젝트 소개
+# 🙋‍♀️ Project INTRO
 TRIPMAVEN은 AI 기반으로 프리랜서 여행 가이드를 대상으로 서비스직 교육과 평가를 지원하는 플랫폼입니다. 이 프로젝트는 여행 가이드의 역량을 강화하고, 실시간으로 피드백을 제공하여 교육 효과를 극대화합니다.
 
-## 주요 기능
+![TripMavenLanding](\assets\img\TripMaven\TripMaven_Landing.png)
+
+## 🚀 Main SKILL
 
 ### 1. AI 기반 평가 시스템
 - **표정 인식**: AI를 활용하여 실시간으로 가이드의 표정을 분석하고 피드백을 제공합니다.
