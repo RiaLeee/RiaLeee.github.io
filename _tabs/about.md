@@ -7,9 +7,13 @@ order: 4
 
 Hi there! 👋
 
-Welcome to my personal blog. I'm **이규림**, a passionate developer who loves building innovative solutions with modern technologies.
+Welcome to my personal blog.
+I'm **이규림**, a passionate developer who loves building innovative solutions with modern technologies.
 
-## My Skills:
+![intro](/assets/img/AboutMe/intro.PNG)
+
+## My Skills
+![skill](/assets/img/AboutMe/skill.PNG)
 - **Languages:** Java, Python, JavaScript (React)
 - **Frameworks:** Spring, FastAPI, Jekyll
 - **Libraries/Tools:** TensorFlow, OpenCV, Pytesseract, AWS, Git, Docker

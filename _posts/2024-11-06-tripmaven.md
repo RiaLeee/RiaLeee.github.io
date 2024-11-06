@@ -1,7 +1,7 @@
 ---
-title: TRIPMAVEN
+title: [Proj]TRIPMAVEN
 date: 2024-11-06 +09:00
-categories: [PROJECT, Team]
+categories: [PROJ, Team]
 tags:
   [
     여행가이드,
