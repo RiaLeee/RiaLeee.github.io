@@ -1,5 +1,5 @@
 ---
-title: [Proj]TRIPMAVEN
+title: TRIPMAVEN
 date: 2024-11-06 +09:00
 categories: [PROJ, Team]
 tags:
