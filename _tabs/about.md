@@ -1,6 +1,6 @@
 ---
 icon: fas fa-info-circle
-order: 4 #기존으로 변경
+order: 2 #기존으로 변경
 ---
 
 # About Me
