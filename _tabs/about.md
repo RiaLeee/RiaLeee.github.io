@@ -23,7 +23,7 @@ order: 2 #기존으로 변경
 Welcome to my personal blog.
 
 ---
-## 😊 Intro Lia
+## 😊 Intro <span style="color: #654321;">Lia</span>
 - Korea Name : <a href="https://jungle-battery-1ee.notion.site/Hi-I-m-Ria-12ea5279186780a9b9b6e3512bf95bac?pvs=4">Lee Gyu Rim</a>
 
 ## ⛏️ My Skills and Tools
