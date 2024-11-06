@@ -34,8 +34,8 @@ Welcome to my personal blog.
 - **Etc:** Linux, Bootstrap, MUI, Node.js
 
 ## 🏅Project
-- **[TripMaven](https://rialeee.github.io/posts/2024-11-06-tripmaven/):** : Team(103日,7人), AI Service
-- **[Texify](https://rialeee.github.io/posts/2024-11-06-textify/):** : Personal(5日), OCR
+- **[TripMaven](https://rialeee.github.io/posts/tripmaven/):** : Team(103日,7人), AI Service
+- **[Texify](https://rialeee.github.io/posts/textify/):** : Personal(5日), OCR
 
 ---
 
