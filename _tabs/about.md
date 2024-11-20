@@ -37,7 +37,7 @@ order: 2
 - **[TripMaven](https://rialeee.github.io/posts/tripmaven/):** Team Project (103 days, 7 members), AI Service
 - **[Textify](https://rialeee.github.io/posts/textify/):** Personal Project (5 days), OCR
 
-![AboutMeDino](../assets/img/aboutMe/dino.gif)
+![AboutMeDino](/assets/img/aboutMe/dino.gif)
 
 # 👩‍🦰 Lia's Growth Diary
 ## 1. What I’ve Done ✨Before✨
