@@ -38,6 +38,8 @@ Welcome to my personal blog.
 - **[Texify](https://rialeee.github.io/posts/textify/):** : Personal(5日), OCR
 
 
+![TripMavenVoiceA](/assets/img/aboutMe/dino.gif)
+
 # 👩‍🦰 Lia's Growth Diary
 ## 1. What has been done ✨before✨
  * 🔭 I’m studied **Java & Python full stack course for 6.5 months**
@@ -45,8 +47,6 @@ Welcome to my personal blog.
  * 😛 I implemented a site called '[Textify](https://github.com/RiaLeee/04Textify)' that extracts text from images.
  * 👨‍💻 I'm especially good at **JavaScript, Java and Python**.
  * 📝 I have deployed using **AWS EC2 server**.
-
-<img src = 'images/gifs/dino.gif' alt = 'gifDino' align='center'/>
 
 ## 2. What you are ✨currently✨ doing
  * 🌱 I’m currently preparing **for the SQLD certification and the information processing engineer certification.**
