@@ -7,7 +7,6 @@ on:
       - "hotfix/*"
     paths-ignore:
       - ".github/**"
-      - "!.github/workflows/ci.yml"
       - .gitignore
       - "docs/**"
       - README.md
@@ -15,7 +14,6 @@ on:
   pull_request:
     paths-ignore:
       - ".github/**"
-      - "!.github/workflows/ci.yml"
       - .gitignore
       - "docs/**"
       - README.md
@@ -44,10 +42,12 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: lts/*
+          node-version: 'lts/*'  # Use the latest LTS version
 
-      - name: Build Assets
-        run: npm i && npm run build
+      - name: Install and Build Assets
+        run: |
+          npm install
+          npm run build
 
       - name: Test Site
         run: bash tools/test.sh
