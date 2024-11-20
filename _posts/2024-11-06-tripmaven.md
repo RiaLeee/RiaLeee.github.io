@@ -48,7 +48,7 @@ TRIPMAVEN은 **AI 기반으로 프리랜서 여행 가이드를 대상으로 서
 - React-Quill 라이브러리를 통한 **블로그 글 작성 기능**으로 콘텐츠 관리 시스템 강화
 
 ## 📎 MindMap
-![TripMavenMindMap](/assets/img/TripMaven/TripMaven_MindMap.png)
+![TripMavenMindMap](/assets/img/tripMaven/TripMaven_MindMap.png)
 
 ## 📎 ER Diagram
 ![TripMavenERD](/assets/img/tripMaven/TripMaven_ERD.png)
@@ -60,7 +60,7 @@ TRIPMAVEN은 **AI 기반으로 프리랜서 여행 가이드를 대상으로 서
 ![TripMavenTools](/assets/img/tripMaven/TripMaven_Tools.png)
 
 ## 📎 Entire Architecture
-![TripMavenEntireA](/assets/img/TripMaven/TripMaven_EntireArchitecture.png)
+![TripMavenEntireA](/assets/img/tripMaven/TripMaven_EntireArchitecture.png)
 
 ## 📎 AI service, Face Analysis Architecture
 ![TripMavenFaceA](/assets/img/tripMaven/TripMaven_VideoAnalysisArchitecture.png)
