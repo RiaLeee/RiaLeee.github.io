@@ -37,6 +37,25 @@ Welcome to my personal blog.
 - **[TripMaven](https://rialeee.github.io/posts/tripmaven/):** : Team(103日,7人), AI Service
 - **[Texify](https://rialeee.github.io/posts/textify/):** : Personal(5日), OCR
 
+
+# 👩‍🦰 Lia's Growth Diary
+## 1. What has been done ✨before✨
+ * 🔭 I’m studied **Java & Python full stack course for 6.5 months**
+ * 👯 I’m looking to collaborate on [TripMaven](https://github.com/RiaLeee/03tripMaven_Team)
+ * 😛 I implemented a site called '[Textify](https://github.com/RiaLeee/04Textify)' that extracts text from images.
+ * 👨‍💻 I'm especially good at **JavaScript, Java and Python**.
+ * 📝 I have deployed using **AWS EC2 server**.
+
+<img src = 'images/gifs/dino.gif' alt = 'gifDino' align='center'/>
+
+## 2. What you are ✨currently✨ doing
+ * 🌱 I’m currently preparing **for the SQLD certification and the information processing engineer certification.**
+ * ⚡ I have the best time **when I'm coding.**
+ * 🔥 I'm ready to **dive into coding.**
+
+## 3. what will happen in the ✨future✨
+ * In the future, I want to become a **professional full-stack developer** with a lot of **followership**.
+
 ---
 
 Thank you for visiting! 😊
