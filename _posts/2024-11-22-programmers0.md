@@ -17,7 +17,7 @@ excerpt: "프로그래머스 기초문제 0단계"
 
 <details>
   <summary>코드 보기</summary>
----
+---```java
   class Solution {
       public int solution(int n) {
           int answer = 0;
@@ -50,7 +50,7 @@ excerpt: "프로그래머스 기초문제 0단계"
 
 <details>
   <summary>코드 보기</summary>
-
+```java
 class Solution {
     public int solution(String ineq, String eq, int n, int m) {
         boolean result= false;
