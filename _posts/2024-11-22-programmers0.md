@@ -15,7 +15,6 @@ excerpt: "프로그래머스 기초문제 0단계"
 
 양의 정수 `n`이 주어질 때, `n`이 홀수라면 `n` 이하의 홀수인 모든 양의 정수의 합을 return하고, `n`이 짝수라면 `n` 이하의 짝수인 모든 양의 정수의 제곱의 합을 return하는 `solution` 함수를 작성해 주세요. (단, 1 <=n <=100)
 
-```
 <details>
   <summary>코드 보기</summary>
   <pre><code class="java">
@@ -38,7 +37,6 @@ excerpt: "프로그래머스 기초문제 0단계"
   </code></pre>
 </details>
 
-```
 
 
 ## ❓ 조건문자열
@@ -95,7 +93,7 @@ code[idx]가 "1"이면 mode를 1에서 0으로 바꿉니다.
 
 <details>
   <summary>코드 보기</summary>
-
+  <pre><code class="java">
 class Solution {
     public String solution(String code) {
         
@@ -128,7 +126,7 @@ class Solution {
         return ret.isEmpty() ? "EMPTY" : ret;
     }
 }
-
+</code></pre>
 </details>
 
 ## ❓ 등차수열의 특정한 항만 더하기
@@ -137,7 +135,7 @@ class Solution {
 
 <details>
   <summary>코드 보기</summary>
-
+<pre><code class="java">
 class Solution {
     public int solution(int a, int d, boolean[] included) {
         int answer = 0;
@@ -151,6 +149,7 @@ class Solution {
         return answer;
     }
 }
+</code></pre>
 </details>
 
 ## ❓ 원소들의 곱과 합
@@ -159,7 +158,7 @@ class Solution {
 
 <details>
   <summary>코드 보기</summary>
-
+<pre><code class="java">
 class Solution {
     public int solution(int[] num_list) {
         int sum = 0;
@@ -182,6 +181,7 @@ class Solution {
         }
     }
 }
+</code></pre>
 </details>
 
 ## ❓ 공백으로 구분하기2
@@ -189,14 +189,14 @@ class Solution {
 단어가 공백 한 개 이상으로 구분되어 있는 문자열 my_string이 매개변수로 주어질 때, my_string에 나온 단어를 앞에서부터 순서대로 담은 문자열 배열을 return 하는 solution 함수를 작성해 주세요.
 <details>
   <summary>코드 보기</summary>
-
+<pre><code class="java">
 class Solution {
     public String[] solution(String my_string) {        
         String[] answer = my_string.trim().split("\\s+");
         return answer;
     }
 }
-
+</code></pre>
 </details>
 
 ## ❓ 마지막 두 원소
@@ -205,8 +205,7 @@ class Solution {
 
 <details>
   <summary>코드 보기</summary>
-
-
+<pre><code class="java">
 import java.util.Arrays;
 
 class Solution {
@@ -229,4 +228,5 @@ class Solution {
         return new_num_list;
     }
 }
+</code></pre>
 </details>
