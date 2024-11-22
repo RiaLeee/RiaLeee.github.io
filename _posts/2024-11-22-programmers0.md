@@ -17,7 +17,7 @@ excerpt: "프로그래머스 기초문제 0단계"
 
 <details>
   <summary>코드 보기</summary>
-```java
+`java
   class Solution {
     public int solution(int n) {
       int answer = 0;
@@ -33,8 +33,8 @@ excerpt: "프로그래머스 기초문제 0단계"
       }    
       return answer;
     }
-  }```
-</details>```
+  }`
+</details>
 
 ## ❓ 조건문자열
 문자열에 따라 다음과 같이 두 수의 크기를 비교하려고 합니다.
