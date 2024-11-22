@@ -47,7 +47,7 @@ excerpt: "프로그래머스 기초문제 0단계"
 "<", "=" : n <= m
 ">", "!" : n > m
 "<", "!" : n < m
-두 문자열 `ineq`와 `eq`가 주어집니다. ineq는 "<"와 ">"중 하나고, eq는 "="와 "!"중 하나입니다. 그리고 두 정수 n과 m이 주어질 때, n과 m이 ineq와 eq의 조건에 맞으면 1을 아니면 0을 return하도록 solution 함수를 완성해주세요.
+두 문자열 `ineq`와 `eq`가 주어집니다. ineq는 "<"와 ">"중 하나고, eq는 "="와 "!"중 하나입니다. 그리고 두 정수 `n`과 `m`이 주어질 때, `n`과 `m`이 `ineq`와 `eq`의 조건에 맞으면 1을 아니면 0을 return하도록 `solution` 함수를 완성해주세요.
 
 <details>
   <summary>코드 보기</summary>
@@ -76,20 +76,20 @@ class Solution {
 
 
 ## ❓ 코드 처리하기
-문자열 code가 주어집니다.
-code를 앞에서부터 읽으면서 만약 문자가 "1"이면 mode를 바꿉니다. mode에 따라 code를 읽어가면서 문자열 ret을 만들어냅니다.
+문자열 `code`가 주어집니다.
+`code`를 앞에서부터 읽으면서 만약 문자가 "1"이면 `mode`를 바꿉니다. `mode`에 따라 `code`를 읽어가면서 문자열 `ret`을 만들어냅니다.
 
-mode는 0과 1이 있으며, idx를 0 부터 code의 길이 - 1 까지 1씩 키워나가면서 code[idx]의 값에 따라 다음과 같이 행동합니다.
+`mode`는 `0`과 `1`이 있으며, `idx`를 `0` 부터 `code`의 길이 - 1 까지 1씩 키워나가면서 `code[idx]`의 값에 따라 다음과 같이 행동합니다.
 
-mode가 0일 때
-code[idx]가 "1"이 아니면 idx가 짝수일 때만 ret의 맨 뒤에 code[idx]를 추가합니다.
-code[idx]가 "1"이면 mode를 0에서 1로 바꿉니다.
-mode가 1일 때
-code[idx]가 "1"이 아니면 idx가 홀수일 때만 ret의 맨 뒤에 code[idx]를 추가합니다.
-code[idx]가 "1"이면 mode를 1에서 0으로 바꿉니다.
-문자열 code를 통해 만들어진 문자열 ret를 return 하는 solution 함수를 완성해 주세요.
+`mode`가 0일 때
+`code[idx]`가 "1"이 아니면 idx가 짝수일 때만 ret의 맨 뒤에 `code[idx]`를 추가합니다.
+`code[idx]`가 "1"이면 `mode`를 0에서 1로 바꿉니다.
+`mode`가 1일 때
+`code[idx]`가 "1"이 아니면 idx가 홀수일 때만 ret의 맨 뒤에 `code[idx]`를 추가합니다.
+`code[idx]`가 "1"이면 `mode`를 1에서 0으로 바꿉니다.
+문자열 code를 통해 만들어진 문자열 `ret`를 return 하는 solution 함수를 완성해 주세요.
 
-단, 시작할 때 mode는 0이며, return 하려는 ret가 만약 빈 문자열이라면 대신 "EMPTY"를 return 합니다.
+단, 시작할 때 `mode`는 `0`이며, return 하려는 `ret`가 만약 빈 문자열이라면 대신 "EMPTY"를 return 합니다.
 
 <details>
   <summary>코드 보기</summary>
@@ -131,7 +131,7 @@ class Solution {
 
 ## ❓ 등차수열의 특정한 항만 더하기
 
-두 정수 a, d와 길이가 n인 boolean 배열 included가 주어집니다. 첫째항이 a, 공차가 d인 등차수열에서 included[i]가 i + 1항을 의미할 때, 이 등차수열의 1항부터 n항까지 included가 true인 항들만 더한 값을 return 하는 solution 함수를 작성해 주세요.
+두 정수 `a`, `d`와 길이가 `n`인 boolean 배열 `included`가 주어집니다. 첫째항이 `a`, 공차가 `d`인 등차수열에서 `included[i]`가 `i + 1`항을 의미할 때, 이 등차수열의 `1`항부터 `n`항까지 `included가` `true`인 항들만 더한 값을 return 하는 solution 함수를 작성해 주세요.
 
 <details>
   <summary>코드 보기</summary>
@@ -154,7 +154,7 @@ class Solution {
 
 ## ❓ 원소들의 곱과 합
 
-정수가 담긴 리스트 num_list가 주어질 때, 모든 원소들의 곱이 모든 원소들의 합의 제곱보다 작으면 1을 크면 0을 return하도록 solution 함수를 완성해주세요.
+정수가 담긴 리스트 `num_list`가 주어질 때, 모든 원소들의 곱이 모든 원소들의 합의 제곱보다 작으면 1을 크면 0을 return하도록 solution 함수를 완성해주세요.
 
 <details>
   <summary>코드 보기</summary>
@@ -186,7 +186,7 @@ class Solution {
 
 ## ❓ 공백으로 구분하기2
 
-단어가 공백 한 개 이상으로 구분되어 있는 문자열 my_string이 매개변수로 주어질 때, my_string에 나온 단어를 앞에서부터 순서대로 담은 문자열 배열을 return 하는 solution 함수를 작성해 주세요.
+단어가 공백 한 개 이상으로 구분되어 있는 문자열 `my_string`이 매개변수로 주어질 때, `my_string`에 나온 단어를 앞에서부터 순서대로 담은 문자열 배열을 return 하는 solution 함수를 작성해 주세요.
 <details>
   <summary>코드 보기</summary>
 <pre><code class="java">
@@ -201,7 +201,7 @@ class Solution {
 
 ## ❓ 마지막 두 원소
 
-정수 리스트 num_list가 주어질 때, 마지막 원소가 그전 원소보다 크면 마지막 원소에서 그전 원소를 뺀 값을 마지막 원소가 그전 원소보다 크지 않다면 마지막 원소를 두 배한 값을 추가하여 return하도록 solution 함수를 완성해주세요.
+정수 리스트 `num_list`가 주어질 때, 마지막 원소가 그전 원소보다 크면 마지막 원소에서 그전 원소를 뺀 값을 마지막 원소가 그전 원소보다 크지 않다면 마지막 원소를 두 배한 값을 추가하여 return하도록 solution 함수를 완성해주세요.
 
 <details>
   <summary>코드 보기</summary>
