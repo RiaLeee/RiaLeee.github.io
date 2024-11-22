@@ -40,5 +40,5 @@ excerpt: "프로그래머스 기초문제 0단계"
           
           return answer;
       }
-  }```
-  </details>
+  }
+
