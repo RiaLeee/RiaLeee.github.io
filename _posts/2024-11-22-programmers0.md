@@ -1,7 +1,7 @@
 ---
 title: Programmers_Level_0_Review
 date: 2024-11-22 +09:00
-categories: [Study, Programmers]
+categories: [Study, Programmers, Basic]
 tags: 
   - Programmers
   - 프로그래머스
