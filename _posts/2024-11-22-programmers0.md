@@ -19,22 +19,21 @@ excerpt: "프로그래머스 기초문제 0단계"
   <summary>코드 보기</summary>
 ```java
   class Solution {
-      public int solution(int n) {
-          int answer = 0;
+    public int solution(int n) {
+      int answer = 0;
           
-          if (n % 2 == 1) {  // n이 홀수일 때
-              for (int i = 1; i <= n; i += 2) {
-                  answer += i;
-              }
-          } else {  // n이 짝수일 때
-              for (int i = 2; i <= n; i += 2) {
-                  answer += i * i;
-              }
+      if (n % 2 == 1) {  // n이 홀수일 때
+        for (int i = 1; i <= n; i += 2) {
+          answer += i;
+        }
+      } else {  // n이 짝수일 때
+          for (int i = 2; i <= n; i += 2) {
+            answer += i * i;
           }
-          
-          return answer;
-      }
-  }
+      }    
+      return answer;
+    }
+  }```
 </details>```
 
 ## ❓ 조건문자열
