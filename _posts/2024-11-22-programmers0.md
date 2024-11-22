@@ -16,7 +16,7 @@ excerpt: "프로그래머스 기초문제 0단계"
 양의 정수 `n`이 주어질 때, `n`이 홀수라면 `n` 이하의 홀수인 모든 양의 정수의 합을 return하고, `n`이 짝수라면 `n` 이하의 짝수인 모든 양의 정수의 제곱의 합을 return하는 `solution` 함수를 작성해 주세요. (단, 1 <=n <=100)
 
 
-```java
+~~~java
   class Solution {
     public int solution(int n) {
       int answer = 0;
@@ -32,7 +32,7 @@ excerpt: "프로그래머스 기초문제 0단계"
       }    
       return answer;
     }
-  }```
+  }~~~
 
 
 ## ❓ 조건문자열
@@ -47,7 +47,7 @@ excerpt: "프로그래머스 기초문제 0단계"
 
 <details>
   <summary>코드 보기</summary>
-`
+```
 class Solution {
     public int solution(String ineq, String eq, int n, int m) {
         boolean result= false;
@@ -66,7 +66,8 @@ class Solution {
 
         return result?1:0;
     }
-}`
+}```
+</detail>
 
 ## ❓ 코드 처리하기
 문자열 code가 주어집니다.
