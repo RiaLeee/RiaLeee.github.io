@@ -1,7 +1,7 @@
 ---
 title: Programmers_Level_0_Review
 date: 2024-11-22 +09:00
-categories: [Study, Programmers, Basic]
+categories: [Programmers, Basic]
 tags: 
   - Programmers
   - 프로그래머스
@@ -23,7 +23,7 @@ excerpt: "프로그래머스 기초문제 0단계"
 <details>
   <summary>코드 보기</summary>
 
-  ```java
+ ```java
   class Solution {
       public int solution(int n) {
           int answer = 0;
@@ -41,4 +41,4 @@ excerpt: "프로그래머스 기초문제 0단계"
           return answer;
       }
   }
-
+</details> ```
